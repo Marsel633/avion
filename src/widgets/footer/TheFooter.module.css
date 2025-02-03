@@ -28,7 +28,7 @@ a {
   font-size: 1.125rem;
 }
 
-tfoot {
+.footer_copy {
   height: 3.5rem;
   display: flex;
   align-items: center;

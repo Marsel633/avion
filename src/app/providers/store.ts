@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const emptyReducer = (state = {}, _action: unknown) => state;
+import productsReducer from '../../entities/productCard/model/productSlice'; 
 
 export const store = configureStore({
   reducer: {
-    empty: emptyReducer,
+    products: productsReducer, 
   },
 });
 
