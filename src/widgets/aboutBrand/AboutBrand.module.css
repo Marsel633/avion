@@ -1,0 +1,6 @@
+.aboutBrandItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.625rem;
+    padding-top: 2.25rem;
+}
