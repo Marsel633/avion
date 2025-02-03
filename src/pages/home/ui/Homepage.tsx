@@ -1,7 +1,11 @@
 import React from 'react'
+import { Layout } from '../../../shared/ui/layout/Layout'
 
 export const Homepage:React.FC = () => {
   return (
-    <div>Homepage</div>
+    
+    <Layout>
+      <div>home</div>
+    </Layout>
   )
 }
