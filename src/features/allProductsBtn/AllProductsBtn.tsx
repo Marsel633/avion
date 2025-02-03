@@ -1,17 +1,16 @@
 import React from "react";
-import styles from "./PrimaryButton.module.css";
+import styles from "./AllProductsBtn.module.css";
 import { Link } from "react-router";
-import { IPrimaryButton } from "../../types/types";
+import { IAllProductsBtn } from "../../shared/types/types";
 
-export const PrimaryButton: React.FC<IPrimaryButton> = ({
+export const AllProductsBtn: React.FC<IAllProductsBtn> = ({
   children,
   dark,
   width,
-  to,
   ...buttonProps
 }) => {
   return (
-    <Link to={to}>
+    <Link to="/all-products">
       <button
         style={{ width: `${width}px` }}
         className={`${styles.btn} ${dark ? styles.dark : styles.light}`}

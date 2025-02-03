@@ -1,9 +1,6 @@
 import React from 'react'
 import styles from "./Container.module.css"
-
-interface IContainerProps {
-    children: React.ReactNode
-}
+import { IContainerProps } from '../../types/types'
 
 export const Container: React.FC<IContainerProps> = ({children}) => {
   return (

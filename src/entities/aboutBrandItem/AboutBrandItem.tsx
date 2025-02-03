@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./AboutBrandItem.module.css";
-import { IAboutBrandItemProps } from "../../../public/arrays";
+import { IAboutBrandItemProps } from "../../shared/config/arrays";
 
-export const AboutBrandItem: React.FC<IAboutBrandItemProps> = ({id,icon, title, description}) => {
+export const AboutBrandItem: React.FC<IAboutBrandItemProps> = ({icon: Icon, title, description}) => {
   return (
-    <div key={id} className={styles.aboutBrandCard}>
-      {React.createElement(icon, { size: 24})}
+    <div className={styles.aboutBrandCard}>
+      <Icon size={24} aria-hidden="true"/>
       <h3>{title}</h3>
       <p>
         {description}

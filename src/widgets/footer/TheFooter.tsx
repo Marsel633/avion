@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./TheFooter.module.css";
-import {FooterCategories, FooterMenu, FooterOurCompany} from "../../../public/arrays"
+import {FooterCategories, FooterMenu, FooterOurCompany} from "../../shared/config/arrays"
 
 export const TheFooter: React.FC = () => {
   return (

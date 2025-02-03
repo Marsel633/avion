@@ -1,8 +1,8 @@
 import React from "react";
 import { Layout } from "../../../shared/ui/layout/Layout";
-import { PrimaryButton } from "../../../shared/ui/buttons/PrimaryButton";
 import styles from "./Homepage.module.css";
 import { AboutBrand } from "../../../widgets/aboutBrand/AboutBrand";
+import { AllProductsBtn } from "../../../features/allProductsBtn/AllProductsBtn";
 
 export const Homepage: React.FC = () => {
   return (
@@ -14,9 +14,9 @@ export const Homepage: React.FC = () => {
             With our new collection, view over 400 bespoke pieces from homeware
             through to furniture today
           </p>
-          <PrimaryButton width={270} dark={false}>
+          <AllProductsBtn width={270} dark={false}>
             Vew collection
-          </PrimaryButton>
+          </AllProductsBtn>
        </div>
         <img src="/Homepage_bg.png" alt="Picture's name" />
       </section>
@@ -25,6 +25,9 @@ export const Homepage: React.FC = () => {
         What makes our brand different
         </h1>
         <AboutBrand/>
+      </section>
+      <section className={styles.products}>
+        
       </section>
     </Layout>
   );

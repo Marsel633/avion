@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "The Dandy Chair",
+      "category": "chair",
+      "price": 250,
+      "image": "chair1.jpg",
+      "description": "A stylish chair with premium materials, featuring beech legs and lambskin leather upholstery.",
+      "height": 110,
+      "width": 75,
+      "depth": 50
+    },
+    {
+      "id": 2,
+      "name": "Ergonomic Office Chair",
+      "category": "chair",
+      "price": 320,
+      "image": "chair2.jpg",
+      "description": "An ergonomic office chair with lumbar support and adjustable height.",
+      "height": 120,
+      "width": 70,
+      "depth": 70
+    },
+    {
+      "id": 3,
+      "name": "Rustic Vase Set",
+      "category": "vase",
+      "price": 155,
+      "image": "vase1.jpg",
+      "description": "A handcrafted ceramic vase set, perfect for rustic interiors.",
+      "height": 30,
+      "width": 15,
+      "depth": 15
+    },
+    {
+      "id": 4,
+      "name": "The Silky Vase",
+      "category": "vase",
+      "price": 125,
+      "image": "vase2.jpg",
+      "description": "A smooth, silky-finish vase that complements any modern home.",
+      "height": 35,
+      "width": 18,
+      "depth": 18
+    },
+    {
+      "id": 5,
+      "name": "Luxury Bed Frame",
+      "category": "bed",
+      "price": 1200,
+      "image": "bed1.jpg",
+      "description": "A luxury king-size bed frame made from solid wood and upholstered in premium fabric.",
+      "height": 130,
+      "width": 200,
+      "depth": 220
+    },
+    {
+      "id": 6,
+      "name": "Minimalist Wooden Bed",
+      "category": "bed",
+      "price": 950,
+      "image": "bed2.jpg",
+      "description": "A sleek wooden bed frame with a Scandinavian aesthetic.",
+      "height": 125,
+      "width": 190,
+      "depth": 210
+    },
+    {
+      "id": 7,
+      "name": "Modern Floor Lamp",
+      "category": "lamp",
+      "price": 180,
+      "image": "lamp1.jpg",
+      "description": "A stylish floor lamp with adjustable brightness settings.",
+      "height": 160,
+      "width": 35,
+      "depth": 35
+    },
+    {
+      "id": 8,
+      "name": "Vintage Table Lamp",
+      "category": "lamp",
+      "price": 120,
+      "image": "lamp2.jpg",
+      "description": "A vintage-style table lamp with warm ambient lighting.",
+      "height": 45,
+      "width": 20,
+      "depth": 20
+    }
+  ]
+}
