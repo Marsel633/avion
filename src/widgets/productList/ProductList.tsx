@@ -6,6 +6,7 @@ import { RootState } from "../../app/providers/store";
 import { fetchProducts } from "../../entities/productCard/model/productSlice";
 import { ProductCard } from "../../entities/productCard/ui/ProductCard";
 import { Loading } from "../../shared/ui/loading/Loading";
+import { FavoriteButton } from "../../features/favoriteButton/FavoriteButton";
 
 interface IProductList {
   count: number;
@@ -50,8 +51,11 @@ export const ProductList: React.FC<IProductList> = ({ count, category, sort }) =
 
   return (
     <div className={styles.productList}>
-      {filteredProducts.slice(0, count).map(({ id, name, price, image }) => (
-        <ProductCard key={id} name={name} price={price} image={image} />
+      {filteredProducts.slice(0, count).map((product) => (
+        <div className={styles.productList_item} key={product.id}>
+          <ProductCard id={product.id} name={product.name} price={product.price} image={product.image} />
+          <FavoriteButton product={product}/>
+        </div>
       ))}
     </div>
   );

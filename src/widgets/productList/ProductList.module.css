@@ -5,3 +5,14 @@
   gap: 1rem;
   justify-content: center;
 }
+
+.productList_item {
+    position: relative;
+}
+
+.productList_item button {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    background-color: transparent;
+}
