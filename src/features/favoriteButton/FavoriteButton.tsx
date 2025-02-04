@@ -4,9 +4,10 @@ import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 
 interface IFavoriteButton {
   product: IProduct;
+  onUpdate?: () => void;
 }
 
-export const FavoriteButton: React.FC<IFavoriteButton> = ({ product }) => {
+export const FavoriteButton: React.FC<IFavoriteButton> = ({ product, onUpdate }) => {
   const [isFavorite, setIsFavorite] = useState<boolean>(false);
 
   useEffect(() => {
@@ -31,6 +32,9 @@ export const FavoriteButton: React.FC<IFavoriteButton> = ({ product }) => {
       setIsFavorite(true);
     }
     localStorage.setItem("favorites", JSON.stringify(favorites));
+    if(onUpdate) {
+        onUpdate()
+    }
   };
 
   return (

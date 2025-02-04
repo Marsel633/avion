@@ -1,0 +1,24 @@
+.favorites {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .favorites_item {
+      position: relative;
+  }
+  
+  .favorites_item button {
+      position: absolute;
+      right: 30px;
+      bottom: 20px;
+      background-color: transparent;
+  }
+
+  .noFavorites {
+    padding: 20rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }

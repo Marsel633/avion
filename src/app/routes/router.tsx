@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./appRoutes";
 import { AllProducts } from "../../pages/allProducts/ui/AllProducts";
-import { ProductItem } from "../../pages/product/ui/ProductItem";
+import { Favorites } from "../../pages/favorites/ui/Favorites";
 import { Homepage } from "../../pages/home/ui/Homepage";
 
 export const router = createBrowserRouter([
@@ -16,8 +16,8 @@ export const router = createBrowserRouter([
     errorElement: <div>Error Page</div>,
   },
   {
-    path: AppRoutes.productItem,
-    element: <ProductItem />,
+    path: AppRoutes.favorites,
+    element: <Favorites />,
     errorElement: <div>Error Page</div>,
   },
 ]);
