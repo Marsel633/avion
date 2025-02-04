@@ -1,0 +1,25 @@
+.allProducts_bgImage {
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+}
+
+.allProducts_bgImage h1 {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #ffffff;
+  top: 40px;
+  left: 50px;
+}
+
+.allProducts_bgImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .allProducts {
+    padding: 0 100px;
+  }
+}

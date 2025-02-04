@@ -29,7 +29,7 @@ export const Homepage: React.FC = () => {
         <AboutBrand/>
       </section>
       <section className={styles.products}>
-        <ProductList/>
+        <ProductList count={4}/>
         <AllProductsBtn width={270} dark={false}>
             Vew collection
           </AllProductsBtn>

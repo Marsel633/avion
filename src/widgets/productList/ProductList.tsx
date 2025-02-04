@@ -7,7 +7,11 @@ import { RootState } from "../../app/providers/store";
 import { fetchProducts } from "../../entities/productCard/model/productSlice";
 import { ProductCard } from "../../entities/productCard/ui/ProductCard";
 
-export const ProductList: React.FC = () => {
+interface IProductList {
+  count: number;
+}
+
+export const ProductList: React.FC<IProductList> = ({count}) => {
   const dispatch = useAppDispatch();
   const { products, status, error } = useAppSelector(
     (state: RootState) => state.products
@@ -28,7 +32,7 @@ export const ProductList: React.FC = () => {
   }
   return (
     <div className={styles.productList}>
-      {products.slice(0, 4).map(({ id, name, price, image }) => (
+      {products.slice(0, count).map(({ id, name, price, image }) => (
         <ProductCard key={id} name={name} price={price} image={image} />
       ))}
     </div>
