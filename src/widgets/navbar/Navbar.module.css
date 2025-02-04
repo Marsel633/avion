@@ -1,4 +1,12 @@
+.desktop {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
+    .desktop {
+        display: block;
+    }
+    
     .navbar {
         padding: 1.25rem 0;
         display: flex;

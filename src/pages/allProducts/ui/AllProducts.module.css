@@ -18,6 +18,12 @@
   object-fit: cover;
 }
 
+.mobile {
+    padding: 1.25rem 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
 @media screen and (min-width: 1024px) {
   .allProducts {
     padding: 0 100px;

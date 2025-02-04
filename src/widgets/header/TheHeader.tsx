@@ -5,13 +5,14 @@ import { FiShoppingCart } from "react-icons/fi";
 import { FaRegUserCircle } from "react-icons/fa";
 import styles from "./TheHeader.module.css";
 import { Navbar } from "../navbar/Navbar";
+import { HomepageDirectionClick } from "../../features/homepageDirectionClick/HomepageDirectionClick";
 
 export const TheHeader: React.FC = () => {
   return (
     <>
       <header className={styles.header}>
         <CiSearch size={24} className={styles.desktop} />
-        <h3>Avion</h3>
+        <HomepageDirectionClick/>
         <div className={styles.header_navbar}>
           <CiSearch size={16} className={styles.mobile} />
           <IoMdMenu size={16} className={styles.mobile} />

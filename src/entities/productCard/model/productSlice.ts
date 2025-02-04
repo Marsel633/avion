@@ -6,6 +6,7 @@ export const fetchProducts = createAsyncThunk<IProduct[]>(
   'products/fetchProducts',
   async () => {
     const products = await getProducts();
+    console.log(products)
     return products;
   }
 );

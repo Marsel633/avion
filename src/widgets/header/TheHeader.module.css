@@ -6,8 +6,9 @@
   align-items: center;
 }
 
-.header h3 {
+.header a {
     font-size: 1.75rem;
+    color: #22202E;
 }
 
 .header_navbar {
