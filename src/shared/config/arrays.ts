@@ -11,13 +11,14 @@ export interface IAboutBrandItemProps {
     description: string,
 }
 
-export const FooterCategories: string[] = [
-  "Crockery",
-  "Furniture",
-  "Homeware",
+export const NavbarItems: string[] = [
   "Plant pots",
+  "Ceramics",
+  "Tables",
   "Chairs",
   "Crockery",
+  "Tableware",
+  "Cutlery"
 ];
 
 export const FooterMenu: string[] = [

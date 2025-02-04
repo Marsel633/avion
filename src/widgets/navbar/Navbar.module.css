@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+    .navbar {
+        padding: 1.25rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 2.75rem;
+    }
+    
+    .navbar a {
+        color: #726E8D;
+    }
+}

@@ -14,3 +14,9 @@
 .aboutBrandCard p {
     line-height: 1.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .aboutBrandCard {
+        padding: 3.5rem;
+    }
+}

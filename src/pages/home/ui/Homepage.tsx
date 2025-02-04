@@ -10,16 +10,17 @@ export const Homepage: React.FC = () => {
     <Layout>
       <section className={styles.homepage}>
        <div className={styles.homepage_wrapper}>
-          <h1>Luxury homeware for people who love timeless design quality</h1>
-          <p>
+          <h1 className={styles.wrapper_title}>Luxury homeware for people who love timeless design quality</h1>
+          <p className={styles.mobile}>
             With our new collection, view over 400 bespoke pieces from homeware
             through to furniture today
           </p>
+          <p className={`${styles.desktop} ${styles.wrapper_subtitle}`}>Shop the new Spring 2022 collection today</p>
           <AllProductsBtn width={270} dark={false}>
             Vew collection
           </AllProductsBtn>
        </div>
-        <img src="/Homepage_bg.png" alt="Picture's name" />
+        <div className={styles.homepage_bgImage}><img src="/homepage_bg_1024.jpeg" alt="Picture's name" /></div>
       </section>
       <section className={styles.aboutBrand}>
         <h1>
@@ -41,7 +42,7 @@ export const Homepage: React.FC = () => {
             Vew collection
           </AllProductsBtn>
         </div>
-        <img src="/Yellow_chair.png" alt="Yellow chair" />
+        <div className={styles.idea_image}><img src="/Yellow_chair.png" alt="Yellow chair" /></div>
       </section>
     </Layout>
   );

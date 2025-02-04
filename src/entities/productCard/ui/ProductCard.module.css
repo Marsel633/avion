@@ -21,3 +21,19 @@
 .productItem p {
     font-size: 1.125rem;
 }
+@media screen and (min-width: 1024px) {
+    .productItem {
+        width: 310px;
+        height: 450px;
+    }
+    
+    .productItem_image {
+        width: 310px;
+        height: 80%;
+    }
+
+    .productItem_image img {
+        width: 97%;
+        height: 100%;
+    }
+}
