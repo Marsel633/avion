@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Container.module.css"
-import { IContainerProps } from '../../types/types'
+import { IContainerProps } from '@/shared/types'
 
 export const Container: React.FC<IContainerProps> = ({children}) => {
   return (

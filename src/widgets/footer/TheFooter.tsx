@@ -1,10 +1,9 @@
 import React from "react";
-import styles from "./TheFooter.module.css";
 import {
   NavbarItems,
   FooterMenu,
   FooterOurCompany,
-} from "../../shared/config/arrays";
+} from "@/shared";
 import { CiLinkedin, CiInstagram } from "react-icons/ci";
 import {
   FaFacebookSquare,
@@ -12,6 +11,7 @@ import {
   FaTwitter,
   FaSkype,
 } from "react-icons/fa";
+import styles from "./TheFooter.module.css";
 
 export const TheFooter: React.FC = () => {
   return (

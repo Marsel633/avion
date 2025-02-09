@@ -1,15 +1,8 @@
-import { IconType } from "react-icons";
 import { TbTruckDelivery } from "react-icons/tb";
 import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
 import { CiWallet } from "react-icons/ci";
 import { PiPlantLight } from "react-icons/pi";
-
-export interface IAboutBrandItemProps {
-    id: number,
-    icon: IconType;
-    title: string,
-    description: string,
-}
+import { IAboutBrandItemProps } from "../types";
 
 export const NavbarItems: string[] = [
   "Plant pots",

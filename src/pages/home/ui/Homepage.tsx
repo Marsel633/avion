@@ -1,9 +1,8 @@
 import React from "react";
-import { Layout } from "../../../shared/ui/layout/Layout";
+import { Layout } from "@/shared";
+import { AllProductsBtn } from "@/features";
+import { AboutBrand, ProductList } from "@/widgets";
 import styles from "./Homepage.module.css";
-import { AboutBrand } from "../../../widgets/aboutBrand/AboutBrand";
-import { AllProductsBtn } from "../../../features/allProductsBtn/AllProductsBtn";
-import { ProductList } from "../../../widgets/productList/ProductList";
 
 export const Homepage: React.FC = () => {
   return (

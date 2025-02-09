@@ -2,10 +2,9 @@ import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoMdMenu } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
+import { FavoriteProductsDirection, HomepageDirectionClick } from "@/features";
+import { Navbar } from "../navbar";
 import styles from "./TheHeader.module.css";
-import { Navbar } from "../navbar/Navbar";
-import { HomepageDirectionClick } from "../../features/homepageDirectionClick/HomepageDirectionClick";
-import { FavoriteProductsDirection } from "../../features/favoriteProductsDirection/FavoriteProductsDirection";
 
 export const TheHeader: React.FC = () => {
   return (

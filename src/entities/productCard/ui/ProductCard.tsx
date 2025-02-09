@@ -1,6 +1,6 @@
 import React from "react";
+import { IProduct } from "../api";
 import styles from "./ProductCard.module.css";
-import { IProduct } from "../api/types";
 
 export const ProductCard: React.FC<IProduct> = ({ image, name, price }) => {
   return (

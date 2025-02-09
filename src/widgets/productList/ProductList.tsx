@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
+import { Loading, useAppDispatch, useAppSelector } from "@/shared";
+import { RootState } from "@/app";
+import { fetchProducts, ProductCard } from "@/entities";
+import { FavoriteButton } from "@/features";
 import styles from "./ProductList.module.css";
-import { useAppDispatch } from "../../shared/lib/hooks/useAppDispatch";
-import { useAppSelector } from "../../shared/lib/hooks/useAppSelector";
-import { RootState } from "../../app/providers/store";
-import { fetchProducts } from "../../entities/productCard/model/productSlice";
-import { ProductCard } from "../../entities/productCard/ui/ProductCard";
-import { Loading } from "../../shared/ui/loading/Loading";
-import { FavoriteButton } from "../../features/favoriteButton/FavoriteButton";
 
 interface IProductList {
   count: number;

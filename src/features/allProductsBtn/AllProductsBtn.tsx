@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./AllProductsBtn.module.css";
 import { Link } from "react-router";
-import { IAllProductsBtn } from "../../shared/types/types";
+import { IAllProductsBtn } from "@/shared";
+import styles from "./AllProductsBtn.module.css";
 
 export const AllProductsBtn: React.FC<IAllProductsBtn> = ({
   children,

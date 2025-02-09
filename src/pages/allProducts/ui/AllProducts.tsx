@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Layout } from "../../../shared/ui/layout/Layout";
-import { ProductList } from "../../../widgets/productList/ProductList";
-import { FilterDropdown } from "../../../features/filter/FilterDropdown";
-import { SortDropdown } from "../../../features/sort/SortDropdown";
+import { Layout } from "@/shared";
+import { FilterDropdown, SortDropdown } from "@/features";
+import { ProductList } from "@/widgets";
 import styles from "./AllProducts.module.css";
 
 export const AllProducts: React.FC = () => {

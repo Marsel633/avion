@@ -1,7 +1,7 @@
 import React from "react";
-import { AboutBrandItem } from "../../entities/aboutBrandItem/AboutBrandItem";
+import { AboutBrandItems } from "@/shared";
+import { AboutBrandItem } from "@/entities";
 import styles from "./AboutBrand.module.css";
-import { AboutBrandItems } from "../../shared/config/arrays";
 
 export const AboutBrand: React.FC = () => {
   return (

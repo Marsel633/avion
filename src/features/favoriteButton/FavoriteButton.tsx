@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { IProduct } from "../../entities/productCard/api/types";
+import { IProduct } from "@/entities";
 import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 
 interface IFavoriteButton {

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Layout } from "../../../shared/ui/layout/Layout";
+import { IProduct, ProductCard } from "@/entities";
+import { Layout } from "@/shared";
+import { FavoriteButton } from "@/features";
 import styles from "./Favorites.module.css";
-import { IProduct } from "../../../entities/productCard/api/types";
-import { ProductCard } from "../../../entities/productCard/ui/ProductCard";
-import { FavoriteButton } from "../../../features/favoriteButton/FavoriteButton";
 
 export const Favorites: React.FC = () => {
   const [favorites, setFavorites] = useState<IProduct[]>([]);
