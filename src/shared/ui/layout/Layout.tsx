@@ -1,6 +1,7 @@
 import React from "react";
-import { ILayoutProps } from "@/shared/types";
-import { TheFooter, TheHeader } from "@/widgets";
+import { TheHeader } from "@widgets/header";
+import { TheFooter } from "@widgets/footer";
+import { ILayoutProps } from "@shared/types";
 import { Container } from "../container";
 
 export const Layout: React.FC<ILayoutProps> = ({ children }) => {

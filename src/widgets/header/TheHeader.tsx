@@ -2,7 +2,8 @@ import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoMdMenu } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
-import { FavoriteProductsDirection, HomepageDirectionClick } from "@/features";
+import { HomepageDirectionClick } from "@features/homepageDirectionClick";
+import { FavoriteProductsDirection } from "@features/favoriteProductsDirection";
 import { Navbar } from "../navbar";
 import styles from "./TheHeader.module.css";
 

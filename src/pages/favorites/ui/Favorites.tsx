@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { IProduct, ProductCard } from "@/entities";
-import { Layout } from "@/shared";
-import { FavoriteButton } from "@/features";
+import { IProduct, ProductCard } from "@entities/productCard";
+import { Layout } from "@shared/ui";
+import { FavoriteButton } from "@features/favoriteButton";
 import styles from "./Favorites.module.css";
 
 export const Favorites: React.FC = () => {

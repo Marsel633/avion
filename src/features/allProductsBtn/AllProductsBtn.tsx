@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import { IAllProductsBtn } from "@/shared";
+import { IAllProductsBtn } from "@shared/types";
 import styles from "./AllProductsBtn.module.css";
 
 export const AllProductsBtn: React.FC<IAllProductsBtn> = ({

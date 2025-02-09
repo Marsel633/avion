@@ -1,7 +1,8 @@
 import React from "react";
-import { Layout } from "@/shared";
-import { AllProductsBtn } from "@/features";
-import { AboutBrand, ProductList } from "@/widgets";
+import { Layout } from "@shared/ui";
+import { AllProductsBtn } from "@features/allProductsBtn";
+import { AboutBrand } from "@widgets/aboutBrand";
+import { ProductList } from "@widgets/productList";
 import styles from "./Homepage.module.css";
 
 export const Homepage: React.FC = () => {

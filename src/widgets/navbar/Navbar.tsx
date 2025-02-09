@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarItems } from '@/shared'
+import { NavbarItems } from '@shared/config'
 import { Link } from 'react-router'
 import styles from "./Navbar.module.css"
 

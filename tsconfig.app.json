@@ -24,7 +24,24 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@entities/*": [
+        "./src/entities/*"
+      ],
+      "@widgets/*": [
+        "./src/widgets/*"
+      ],
+      "@shared/*": [
+        "./src/shared/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@features/*": [
+        "./src/features/*"
+      ]
     }
   },
   "include": ["src"]

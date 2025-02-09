@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  NavbarItems,
-  FooterMenu,
-  FooterOurCompany,
-} from "@/shared";
+import { FooterMenu, FooterOurCompany, NavbarItems } from "@shared/config";
 import { CiLinkedin, CiInstagram } from "react-icons/ci";
 import {
   FaFacebookSquare,
@@ -52,12 +48,12 @@ export const TheFooter: React.FC = () => {
       <div className={styles.footer_copy}>
         <p>Copyright 2022 Avion LTD</p>
         <div className={`${styles.desktop} ${styles.footer_socials}`}>
-          <CiLinkedin size={20}/>
-          <FaFacebookSquare size={20}/>
-          <CiInstagram size={20}/>
-          <FaSkype size={20}/>
-          <FaTwitter size={20}/>
-          <FaPinterest size={20}/>
+          <CiLinkedin size={20} />
+          <FaFacebookSquare size={20} />
+          <CiInstagram size={20} />
+          <FaSkype size={20} />
+          <FaTwitter size={20} />
+          <FaPinterest size={20} />
         </div>
       </div>
     </footer>

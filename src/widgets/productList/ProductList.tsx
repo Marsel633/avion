@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import { Loading, useAppDispatch, useAppSelector } from "@/shared";
-import { RootState } from "@/app";
-import { fetchProducts, ProductCard } from "@/entities";
-import { FavoriteButton } from "@/features";
+import { useAppDispatch, useAppSelector } from "@shared/lib";
+import { Loading } from "@shared/ui";
+import { fetchProducts, ProductCard } from "@entities/productCard";
+import { RootState } from "@app/providers";
+import { FavoriteButton } from "@features/favoriteButton";
 import styles from "./ProductList.module.css";
 
 interface IProductList {

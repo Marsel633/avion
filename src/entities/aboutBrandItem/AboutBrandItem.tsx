@@ -1,6 +1,7 @@
 import React from "react";
+import { IAboutBrandItemProps } from "@shared/types";
 import styles from "./AboutBrandItem.module.css";
-import { IAboutBrandItemProps } from "@/shared";
+
 
 export const AboutBrandItem: React.FC<IAboutBrandItemProps> = ({
   icon: Icon,
